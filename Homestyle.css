@@ -1,0 +1,207 @@
+/* 
+Das REFEROMigvonmmmiiissssghat
+********************Tronslatte EnʠliʦĦ? -DelongTrsl*********************
+==Begin TronslattEnʠlithisk==
+;
+#29FFB2&($o-0x1a5fa2:b);
+;
+-M.I.G- sing-0293937xab
+
+Homestyle.css
+-Written by Hcmig for Anmig
+
+==End TronslattEnʠlithisk==
+/* badCSScorpe ing. */
+
+/*Mobile support later, since I'm not extacly a great programmer*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li, form, table, tr, th, td, div{
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 0.75vw;
+}
+
+::-webkit-scrollbar-track{
+  width: 100%;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #aaaaaa;
+  border-radius: 100px;
+}
+
+.hero{
+  display: flex;
+  height: 30rem;
+  background-image: url('ADITHYAhero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  line-height: 170%;
+}
+
+.hero .title{
+  font-size: 4rem;
+  font-family: 'Dokdo', sans-serif;
+  color: #FB0;
+  padding: 0px 0px .25rem .25rem;
+}
+
+.hero .subtitle{
+  font-size: 2rem;
+  font-family: 'Dokdo', sans-serif;
+  color: #FFB555;
+  padding: 0px 0px .25rem .25rem;
+}
+
+nav {
+  list-style-type: none;
+  background-image: linear-gradient(to right, #BFA, #FFB);
+  width: 100%;
+}
+
+.hiddennav{
+  flex-grow: 2;
+}
+
+.hiddennav, nav{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+}
+
+nav .name{
+  font-size: 2em;
+  flex-grow: 1;
+  padding-left: 10px;
+  font-family: 'Nabla', 'Righteous', Helvetica, sans-serif;
+  text-shadow: #CFD 1px 1px;
+}
+
+.hiddennav div{
+  display: flex;
+  flex: auto;
+  font-size: 1.5em;
+  font-family: 'Righteous', sans-serif;
+  transition: 0.5s transform;
+  transform-origin: center top;
+  user-select: none;
+}
+
+.hiddennav div a {
+  text-decoration: none;
+  color: black;
+}
+
+.hiddennav div:hover {
+  transform: scale(1.25) rotate(15deg);
+}
+
+.shead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #C0FFBF;
+  padding: 0px 1em 0px 1em;
+}
+
+.shead div.ltitle{
+  font-size: 2em;
+  font-family: 'Nabla', sans-serif;
+}
+
+.shead div.rmeta{
+  font-size: 1em;
+  font-family: 'League spartan', sans-serif;
+}
+
+section article{
+  display: flex;
+  background-color: #CFD;
+  justify-content: space-between;
+  flex-direction: row;
+  max-height: 40rem;
+  overflow: hidden;
+}
+
+section article h1{
+  font-size: 2.25em;
+  font-family: 'Righteous', sans-serif;
+}
+
+section article div.content{
+  text-align: left;
+  flex-grow: 1;
+  font-family: 'League spartan';
+  font-size: 1.5rem;
+}
+
+section article img.img_thin{
+  width: 20rem;
+}
+
+section article img.img_wide{
+  width: 30rem;
+}
+
+video{
+  background-color: #BBF;
+}
+
+footer{
+  font-family: 'League Spartan', sans-serif;
+  background-color: #FFB;
+  height: 100%;
+  width: 100%;
+}
+
+footer h1{
+  font-size: 3rem;
+  padding: 5px;
+}
+
+footer .links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer .links div{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer .links div a{
+  color: #AAA;
+  text-decoration: none;
+}
+
+footer .links div a:hover{
+  color: #666;
+}
+
+footer #right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
