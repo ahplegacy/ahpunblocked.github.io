@@ -36,6 +36,18 @@ header{
     padding: 5px;
 }
 
+img#bgimg{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -100;
+}
+
+div#filler{
+  height: 80vh;
+  width: 100vw;
+}
+
 main{
   font-family: 'League Spartan', sans-serif;
   font-size: 1.5rem;
@@ -46,8 +58,44 @@ main div#title{
   display: flex;
   align-items: flex-end;
   flex-grow: 40;
-  background-image: url('original.png');
-  background-size: 100% 100%;
   font-family: 'Righteous', sans-serif;
   font-size: 2rem;
+}
+
+main div#title h1{
+  background-color: #CFD;
+  width: 100%;
+}
+
+main article, main h1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(255, 255, 245, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+main article p{
+  text-align: left;
+  width: 60%;
+}
+
+
+main article p h1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer{
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  background-color: #fef5f5;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer h1{
+  font-size: 3rem;
+  font-family: Dokdo, cursive;
 }
